@@ -1,5 +1,6 @@
 /bin/
 /node_modules/
+/ios/App/Pods/
 /infrastructure/node_modules/
 .idea/
 .vim
