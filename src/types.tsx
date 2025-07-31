@@ -1,6 +1,6 @@
 export interface IAppNavigation {
   navigateTo: (
-    page: "products" | "cart" | "productDetail",
+    page: "products" | "cart" | "productDetail" | "login",
     id?: string
   ) => void;
 }

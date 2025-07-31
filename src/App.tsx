@@ -5,11 +5,12 @@ import Footer from "./components/Footer";
 import ProductList from "./components/ProductList";
 import ProductDetail from "./components/ProductDetail";
 import Cart from "./components/Cart";
+import LoginScreen from "./components/Login";
 import { IAppNavigation } from "./types";
 
 const App: FC = () => {
   const [currentPage, setCurrentPage] = useState<
-    "products" | "cart" | "productDetail"
+    "products" | "cart" | "productDetail" | "login"
   >("products");
   const [selectedProductId, setSelectedProductId] = useState<
     string | undefined
@@ -35,6 +36,7 @@ const App: FC = () => {
                 navigateTo={navigateTo}
               />
             )}
+            {currentPage === "login" && <LoginScreen />}
           </main>
           <Footer navigateTo={navigateTo} />
         </CartProvider>

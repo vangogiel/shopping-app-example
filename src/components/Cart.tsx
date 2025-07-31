@@ -15,7 +15,7 @@ const Cart: FC<IAppNavigation> = ({ navigateTo }) => {
           <p className="mb-4">Your cart is empty.</p>
           <button
             onClick={() => navigateTo("products")}
-            className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300 shadow-md"
+            className="bg-teal-500 text-white py-2 px-4 rounded-lg hover:bg-teal-600 transition duration-300 shadow-md"
           >
             Start Shopping
           </button>
