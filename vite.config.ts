@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     outDir: "dist",
     rollupOptions: {
-      input: "src/index.tsx",
+      input: "index.html",
     },
   },
   server: {
