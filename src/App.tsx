@@ -25,7 +25,7 @@ const App: FC = () => {
     <div className="min-h-screen bg-gray-100 font-sans antialiased flex flex-col">
       <ProductProvider>
         <CartProvider>
-          <main className="flex-grow py-16 pb-35">
+          <main className="flex-grow py-16 pb-40">
             {currentPage === "products" && (
               <ProductList navigateTo={navigateTo} />
             )}
