@@ -34,7 +34,7 @@ npm install
 build native iOS dependencies
 
 ```
-cd ios
+cd ios/App
 ```
 
 ```
@@ -44,7 +44,7 @@ pod install
 build the app
 
 ```
-cd ..
+cd ../..
 ```
 
 ```

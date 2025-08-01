@@ -23,7 +23,7 @@ const LoginScreen = () => {
           USERNAME
         </label>
         <input
-          className="p-2.5 mb-5 text-x bg-transparent border-0 border-b-2 border-teal-500 focus:outline-none"
+          className="p-2.5 mb-5 text-x bg-transparent border-0 border-b-2 border-teal-500 focus:outline-none rounded-none"
           type="text"
           placeholder="example@gmail.com"
         />
@@ -32,7 +32,7 @@ const LoginScreen = () => {
           PASSWORD
         </label>
         <input
-          className="p-2.5 mb-5 text-x bg-transparent border-0 border-b-2 border-teal-500 focus:outline-none"
+          className="p-2.5 mb-5 text-x bg-transparent border-0 border-b-2 border-teal-500 focus:outline-none rounded-none"
           type="password"
           placeholder="********"
         />
